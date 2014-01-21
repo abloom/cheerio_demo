@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Login</title>
+  </head>
+  <body>
+    <form action="/login">
+      <input name="csrf" value="SECRET" type="hidden">
+      <input name="email">
+      <input name="password" type="password">
+      <input name="submit" type="submit">
+    </form>
+  </body>
+</html>
